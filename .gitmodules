@@ -1,0 +1,3 @@
+[submodule "themes/squaregoldfish"]
+	path = themes/squaregoldfish
+	url = git@github.com:squaregoldfish/hugo-whisper-theme.git

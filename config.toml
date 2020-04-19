@@ -1,0 +1,60 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Square Goldfish"
+themesDir = "themes"
+theme = "squaregoldfish"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Software"
+    url = "/software/"
+    weight = 2
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 3
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = ''
+  homepage_button_text = ''
+  homepage_intro = 'The random jottings of a geometrically precise aquatic lifeform'
+  homepage_image = ''
+  mainSections = ["software", "docs"]
+
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.homepage_meta_tags]
+    meta_description = ""
+    meta_og_title = "Square Goldfish"
+    meta_og_type = "website"
+    meta_og_url = "https://www.squaregoldfish.co.uk"
+    meta_og_description = "The random jottings of a geometrically precise aquatic lifeform"
+    meta_twitter_card = ""
+    meta_twitter_site = "@squaregoldfish"
+    meta_twitter_creator = "@squaregoldfish"
+
+  [params.logo]
+      mobile = "/images/fish.png"
+      standard  = "/images/fish.png"
