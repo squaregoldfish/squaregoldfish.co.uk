@@ -2,6 +2,7 @@
 title: 'Animated PNG'
 date: 2018-11-28T15:14:39+10:00
 weight: 1
+menu_page: true
 ---
 
 Draw animated PNG images in web pages.
@@ -51,8 +52,8 @@ the following files:
 | `animatedpng_large.js` | The javascript library in verbose form, which is easier to understand and modify. |
 | `README.txt`           | A readme file giving an overview of how to use the library.                       |
 
-Full details of the API for the Javascript library can be found on the API Page.
-An example page showing the library in action can be found here.
+Full details of the API for the Javascript library can be found on the <a href="{{< relref "api.md" >}}">API Page</a>.
+An example page showing the library in action can be found <a href="{{< relref "example.md" >}}">here</a>.
 
 Note: Since this library uses individual image files for its frames, it is suitable only for short, simple animations. Longer animations will work, but it may produce odd results while all the images load.
 
@@ -63,7 +64,7 @@ The latest version is 1.02 (released 2014-11-03), available for download as foll
 * [animatedpng-1.02.tar.gz](https://github.com/squaregoldfish/AnimatedPNG/archive/v1.02.tar.gz) (16Kb)
 * [animatedpng-1.02.zip](https://github.com/squaregoldfish/AnimatedPNG/archive/v1.02.zip) (16Kb)
 
-or you can visit the [GitHub page](https://github.com/squaregoldfish/AnimatedPNG)
+or you can visit the [GitHub page](https://github.com/squaregoldfish/AnimatedPNG).
 
-See the Changelog for what’s new.
-AnimatedPNG is released under the terms of the GNU Public License.
+See the <a href="{{< relref "changelog.md" >}}">Changelog</a> for what’s new.
+AnimatedPNG is released under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU Public Licence v3</a>.
