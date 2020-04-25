@@ -29,18 +29,13 @@ summaryLength = 30
     url = "/software/"
     weight = 2
 
-[[menu.main]]
-    name = "Docs"
-    url = "/docs/"
-    weight = 3
-
 [params]
   google_analytics_id=""
   homepage_button_link = ''
   homepage_button_text = ''
   homepage_intro = 'The random jottings of a geometrically precise aquatic lifeform'
   homepage_image = ''
-  mainSections = ["software", "docs"]
+  mainSections = ["software"]
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
