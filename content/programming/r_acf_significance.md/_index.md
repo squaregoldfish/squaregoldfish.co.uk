@@ -1,8 +1,9 @@
 ---
 title: 'R, ACF and statistical significance'
-date: 2018-11-28T15:14:39+10:00
+date: 2010-01-20T00:00:00
 weight: 1
 menu_page: true
+show_date: true
 ---
 
 The R language provides us with a useful method to calculate the autocorrelation
@@ -38,4 +39,5 @@ significance_level <- qnorm((1 + 0.95)/2)/sqrt(sum(!is.na(series)))
 The `0.95` parameter indicates that we calculate the correlation at which values
 are significant to the 95% level - you can change this as you see fit.
 Note that the significance is a function of the number of data points you have -
-the more points, the closer to zero the significance level will be, and the more confidence you can have in your ACF.
+the more points, the closer to zero the significance level will be, and the more
+confidence you can have in your ACF.
