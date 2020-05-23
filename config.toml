@@ -26,14 +26,19 @@ summaryLength = 30
     weight = 1
 
 [[menu.main]]
+    name = "Photos"
+    url = "/photos/"
+    weight = 2
+
+[[menu.main]]
     name = "Software"
     url = "/software/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Programming"
     url = "/programming/"
-    weight = 3
+    weight = 4
 
 [params]
   google_analytics_id=""
@@ -41,7 +46,7 @@ summaryLength = 30
   homepage_button_text = ''
   homepage_intro = 'The random jottings of a geometrically precise aquatic lifeform'
   homepage_image = ''
-  mainSections = ["software", "programming"]
+  mainSections = ["software", "programming", "photos"]
 
   ## You can enable to add anchor links to header elements
   # enable_anchor_link = true
