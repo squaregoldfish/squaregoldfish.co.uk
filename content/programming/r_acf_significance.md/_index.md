@@ -6,6 +6,8 @@ menu_page: true
 show_date: true
 ---
 
+Getting the statistical signficance from the acf function.
+<!--more-->
 The R language provides us with a useful method to calculate the autocorrelation
 function (ACF) of a time series. An example of an environmental time series with
 a seasonal cycle is shown below, with the resulting plot:
