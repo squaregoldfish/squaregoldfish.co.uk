@@ -2,4 +2,5 @@ public/
 resources/*
 content/photos
 static/photos
-
+send.sh
+.hugo_build.lock

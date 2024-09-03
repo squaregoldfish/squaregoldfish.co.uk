@@ -57,9 +57,6 @@ summaryLength = 30
     meta_og_type = "website"
     meta_og_url = "https://www.squaregoldfish.co.uk"
     meta_og_description = "The random jottings of a geometrically precise aquatic lifeform"
-    meta_twitter_card = ""
-    meta_twitter_site = "@squaregoldfish"
-    meta_twitter_creator = "@squaregoldfish"
 
   [params.logo]
       mobile = "/images/fish.png"
